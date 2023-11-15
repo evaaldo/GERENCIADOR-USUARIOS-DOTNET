@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "85ezI/nnPkRWeJrTN21pFSFk7qG2eXx8E19czZ/jTcGWKhVoGz70tYBlc9VuvZt9QnkO7gi+bJ7Rh1aPTkVaDg==",
-  "success": true,
+  "dgSpecHash": "ILbFXt3nzw1LcqkZRqKnBaBpIWYTrbUyl4cy44hX2DHWQ/qCYyIjkhTcSYEnFzOjl153JhB9k/m0C4jR2hw3ag==",
+  "success": false,
   "projectFilePath": "C:\\Users\\evaldojunior\\Desktop\\vscode\\dotnet\\UsuariosAPI\\SistemaUsuarios\\SistemaUsuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
@@ -30,7 +30,13 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.server.kestrel.transport.abstractions\\2.2.0\\microsoft.aspnetcore.server.kestrel.transport.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.server.kestrel.transport.sockets\\2.2.0\\microsoft.aspnetcore.server.kestrel.transport.sockets.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.13\\microsoft.entityframeworkcore.inmemory.7.0.13.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration\\2.2.0\\microsoft.extensions.configuration.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.2.0\\microsoft.extensions.configuration.binder.2.2.0.nupkg.sha512",
@@ -39,22 +45,22 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\2.2.0\\microsoft.extensions.configuration.fileextensions.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration.json\\2.2.0\\microsoft.extensions.configuration.json.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\2.2.0\\microsoft.extensions.configuration.usersecrets.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.2.0\\microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\2.2.0\\microsoft.extensions.fileproviders.physical.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\2.2.0\\microsoft.extensions.filesystemglobbing.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging\\2.2.0\\microsoft.extensions.logging.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.2.0\\microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.configuration\\2.2.0\\microsoft.extensions.logging.configuration.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.console\\2.2.0\\microsoft.extensions.logging.console.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.debug\\2.2.0\\microsoft.extensions.logging.debug.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\2.2.0\\microsoft.extensions.logging.eventsource.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.2.0\\microsoft.extensions.options.configurationextensions.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
@@ -64,7 +70,6 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.0\\system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.io.pipelines\\4.5.2\\system.io.pipelines.4.5.2.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
@@ -76,5 +81,15 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 7.0.13 para 7.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n SistemaUsuarios -> Microsoft.EntityFrameworkCore.InMemory 7.0.13 -> Microsoft.EntityFrameworkCore (>= 7.0.13) \r\n SistemaUsuarios -> Microsoft.EntityFrameworkCore (>= 7.0.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
