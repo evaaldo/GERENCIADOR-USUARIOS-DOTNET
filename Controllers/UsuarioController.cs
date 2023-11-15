@@ -48,7 +48,18 @@ namespace SistemaUsuarios.Controller
         }
 
         [HttpPost]
+        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        {
+            if(_context.Usuario == null)
+            {
+                return Problem("O construtor do usuário é nulo");
+            }
 
+            _context.Usuarios.Add(usuario);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetUsuarios", new { id = usuario.ID }, usuario);
+        }
 
         [HttpPut("{}")]
 
