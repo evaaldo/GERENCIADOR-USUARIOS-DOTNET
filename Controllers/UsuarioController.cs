@@ -15,5 +15,25 @@ namespace SistemaUsuarios.Controller
         {
             _context = context;
         }
+
+        [HttpGet]
+
+
+        [HttpGet("{id}")]
+
+
+        [HttpPost]
+
+
+        [HttpPut("{}")]
+
+
+        [HttpDelete("{}")]
+
+
+        private bool UsuarioExists(int id)
+        {
+            return(_context.Usuarios?.Any(e => e.ID == id)).GetValueOrDefault();
+        }
     }
 }
