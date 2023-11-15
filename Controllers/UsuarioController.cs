@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SistemaUsuarios.Context;
+using SistemaUsuarios.Model;
 
 namespace SistemaUsuarios.Controller
 {
@@ -17,7 +19,15 @@ namespace SistemaUsuarios.Controller
         }
 
         [HttpGet]
+        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
+        {
+            if(_context.Usuarios == null)
+            {
+                return NotFound();
+            }
 
+            return await _context.Usuarios.ToListAsync();
+        }
 
         [HttpGet("{id}")]
 
