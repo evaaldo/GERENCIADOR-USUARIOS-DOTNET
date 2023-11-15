@@ -5,7 +5,7 @@ using SistemaUsuarios.Model;
 
 namespace SistemaUsuarios.Controller
 {
-    [Route("Usuarios")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -50,7 +50,7 @@ namespace SistemaUsuarios.Controller
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
-            if(_context.Usuario == null)
+            if(_context.Usuarios == null)
             {
                 return Problem("O construtor do usuário é nulo");
             }
@@ -90,7 +90,7 @@ namespace SistemaUsuarios.Controller
             return NoContent();
         }
 
-        [HttpDelete("{}")]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteUsuario(int id)
         {
             if(_context.Usuarios == null)

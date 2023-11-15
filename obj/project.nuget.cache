@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ILbFXt3nzw1LcqkZRqKnBaBpIWYTrbUyl4cy44hX2DHWQ/qCYyIjkhTcSYEnFzOjl153JhB9k/m0C4jR2hw3ag==",
-  "success": false,
+  "dgSpecHash": "jkqeUPmLMZvcuTDRmHhQfvnYYf8fwwkomp57oWD+2PfuzdrxT5gFJ0y2E0jpfD+Cpj3T5IYOr4wFRXmA+5j1Cg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\evaldojunior\\Desktop\\vscode\\dotnet\\UsuariosAPI\\SistemaUsuarios\\SistemaUsuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
@@ -30,9 +30,9 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.server.kestrel.transport.abstractions\\2.2.0\\microsoft.aspnetcore.server.kestrel.transport.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.server.kestrel.transport.sockets\\2.2.0\\microsoft.aspnetcore.server.kestrel.transport.sockets.2.2.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
+    "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.13\\microsoft.entityframeworkcore.inmemory.7.0.13.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
@@ -81,15 +81,5 @@
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\evaldojunior\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 7.0.13 para 7.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n SistemaUsuarios -> Microsoft.EntityFrameworkCore.InMemory 7.0.13 -> Microsoft.EntityFrameworkCore (>= 7.0.13) \r\n SistemaUsuarios -> Microsoft.EntityFrameworkCore (>= 7.0.0)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

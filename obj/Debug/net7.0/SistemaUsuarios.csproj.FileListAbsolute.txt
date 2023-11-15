@@ -34,3 +34,6 @@ C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\obj\Debu
 C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\obj\Debug\net7.0\SistemaUsuarios.pdb
 C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\obj\Debug\net7.0\SistemaUsuarios.genruntimeconfig.cache
 C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\obj\Debug\net7.0\ref\SistemaUsuarios.dll
+C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\evaldojunior\Desktop\vscode\dotnet\UsuariosAPI\SistemaUsuarios\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
