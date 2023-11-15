@@ -61,8 +61,34 @@ namespace SistemaUsuarios.Controller
             return CreatedAtAction("GetUsuarios", new { id = usuario.ID }, usuario);
         }
 
-        [HttpPut("{}")]
+        [HttpPut("{id}")]
+        public async Task<ActionResult> PutUsuario(int id, Usuario usuario)
+        {
+            if(id != usuario.ID)
+            {
+                return BadRequest();
+            }
 
+            _context.Entry(usuario).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                if(!UsuarioExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
 
         [HttpDelete("{}")]
 
