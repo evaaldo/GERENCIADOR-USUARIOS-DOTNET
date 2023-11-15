@@ -91,7 +91,25 @@ namespace SistemaUsuarios.Controller
         }
 
         [HttpDelete("{}")]
+        public async Task<ActionResult> DeleteUsuario(int id)
+        {
+            if(_context.Usuarios == null)
+            {
+                return NotFound();
+            }
 
+            var usuario = await _context.Usuarios.FindAsync(id);
+
+            if(usuario == null)
+            {
+                return NotFound();
+            }
+
+            _context.Usuarios.Remove(usuario);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
 
         private bool UsuarioExists(int id)
         {
