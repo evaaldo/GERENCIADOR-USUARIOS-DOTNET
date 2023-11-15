@@ -30,7 +30,22 @@ namespace SistemaUsuarios.Controller
         }
 
         [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetUsuarios(int id)
+        {
+            if(_context.Usuarios == null)
+            {
+                return NotFound();
+            }
 
+            var usuario = await _context.Usuarios.FindAsync(id);
+
+            if(usuario == null)
+            {
+                return NotFound();
+            }
+
+            return usuario;
+        }
 
         [HttpPost]
 
